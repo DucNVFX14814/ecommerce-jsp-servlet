@@ -1,0 +1,78 @@
+@charset "ISO-8859-1";
+
+body {
+	margin: 0px;
+	padding: 0px;
+	font-family: sans-serif;
+	background-size: cover;
+	background-position: center;
+}
+
+#form {
+	width: 300px;
+	box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.5);
+	background: white;
+	padding: 20px;
+	margin: 8% auto 0;
+	text-align: center;
+}
+
+h1 {
+	color: blue;
+	margin-bottom: 20px;
+}
+
+label {
+	display: block;
+	margin-bottom: 2px;
+	text-align: left;
+}
+
+.rem-for {
+	display: inline-block;
+	font-size: 12px;
+}
+
+.email-password {
+	border-radius: 20px;
+	padding: 10px;
+	margin: 6px -11.5px;
+	width: 100%;
+	border: 2px solid red;
+}
+
+.error {
+	font-size: 15px;
+	color: red;
+	font-style: italic;
+	display: block;
+	text-align: left;
+}
+
+.btn-login {
+	color: white;
+	background-color: #1c8adb;
+	width: 50%;
+	padding: 10px;
+	border-radius: 10px;
+	font-size: 20px;
+	margin: 20px auto;
+	cursor: pointer;
+}
+
+button:hover {
+	background-color: gray;
+}
+
+a {
+	text-decoration: none;
+}
+
+label>a {
+	font-weight: bold;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: gray;
+}
